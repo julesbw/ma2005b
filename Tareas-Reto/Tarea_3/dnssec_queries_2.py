@@ -5,14 +5,35 @@ import time
 # Lista de dominios a analizar
 DOMINIOS = [
     "unam.mx",
+    "ipn.mx",
     "gob.mx",
-    "sat.gob.mx",
-    "tec.mx",
-    "bbva.mx",
-    "banorte.com.mx",
-    "coppel.com.mx",
-    "liverpool.com.mx",
-    "oxxo.com.mx"
+    "imss.gob.mx",
+    "issste.gob.mx",
+    "economia.gob.mx",
+    "hacienda.gob.mx",
+    "segob.gob.mx",
+    "sre.gob.mx",
+    "cultura.gob.mx",
+    "conagua.gob.mx",
+    "semarnat.gob.mx",
+    "salud.gob.mx",
+    "profeco.gob.mx",
+    "conacyt.gob.mx",
+    "cfe.gob.mx",
+    "inai.mx",
+    "ine.mx",
+    "inegi.org.mx",
+    "banxico.org.mx",
+    "nic.mx",
+    "mxcert.org.mx",
+    "anahuac.mx",
+    "anahuacmayab.mx",
+    "udg.mx",
+    "uam.mx",
+    "uanl.mx",
+    "uabc.mx",
+    "uv.mx",
+    "unison.mx"
 ]
 
 # Tipos de registros que obligan a enviar DNSSEC
