@@ -69,7 +69,7 @@ def build_trust_tree(domain):
         nodes.append(dns.name.Name(labels[i-1:]))
 
     tree = []
-
+    
     for node in nodes:    
         if node == dns.name.root:
             tree.append({
