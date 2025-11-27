@@ -19,58 +19,50 @@ def tshark_exists():
 
 
 # ---------------------------
-# Comandos extendidos
+# Función completa
 # ---------------------------
-def build_deep_commands(domain):
-    tld = domain.split(".")[-1]
-
+def dig_full(domain):
+    """
+    Ejecuta TODAS las consultas relevantes del dominio.
+    """
     commands = [
-        ["dig", domain, "DNSKEY", "+dnssec"],
-        ["dig", domain, "DS", "+dnssec"],
         ["dig", domain, "SOA", "+dnssec"],
         ["dig", domain, "NS", "+dnssec"],
+        ["dig", domain, "A", "+dnssec"],
+        ["dig", domain, "AAAA", "+dnssec"],
+        ["dig", domain, "TXT", "+dnssec"],
+        ["dig", domain, "MX", "+dnssec"],
+        ["dig", domain, "DNSKEY", "+dnssec"],
+        ["dig", domain, "DS", "+dnssec"],
         ["dig", domain, "NSEC", "+dnssec"],
         ["dig", domain, "NSEC3", "+dnssec"],
         ["dig", domain, "NSEC3PARAM", "+dnssec"],
-        ["dig", domain, "ANY", "+dnssec"],
-        ["dig", domain, "trace", "+dnssec"],
 
-        # TLD
-        ["dig", tld, "DNSKEY", "+dnssec"],
-        ["dig", tld, "DS", "+dnssec"],
+        # Incluye ANY (aunque RFC 8482 minimiza)
+        ["dig", domain, "ANY", "+dnssec"],
     ]
 
-    return commands
+    full_output = []
 
+    for cmd in commands:
+        try:
+            result = subprocess.run(
+                cmd,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True
+            )
+            full_output.append(result.stdout)
+        except Exception as e:
+            console.print(f"[red]Error ejecutando {cmd}:[/] {e}")
 
-# ---------------------------
-# Método básico (fallback)
-# ---------------------------
-def dig_basic(domain, deep=False):
-
-    if not deep:
-        cmd = ["dig", domain, "DNSKEY", "DS", "+dnssec"]
-    else:
-        cmd = ["dig", domain, "ANY", "+dnssec"]
-
-    try:
-        result = subprocess.run(
-            cmd,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True
-        )
-        return result.stdout
-    except Exception as e:
-        console.print(f"[red]Error ejecutando dig:[/] {e}")
-        return ""
+    return "\n".join(full_output)
 
 
 # ---------------------------
 # Captura PCAP
 # ---------------------------
-def dig_capture(domain, deep=False):
-
+def dig_capture(domain):
     if not tshark_exists():
         return None
 
@@ -86,13 +78,22 @@ def dig_capture(domain, deep=False):
 
     time.sleep(0.3)
 
-    if deep:
-        cmds = build_deep_commands(domain)
-    else:
-        cmds = [["dig", domain, "DNSKEY", "+dnssec"]]
+    # Ejecutar todas las consultas
+    commands = [
+        ["dig", domain, "SOA", "+dnssec"],
+        ["dig", domain, "NS", "+dnssec"],
+        ["dig", domain, "A", "+dnssec"],
+        ["dig", domain, "AAAA", "+dnssec"],
+        ["dig", domain, "TXT", "+dnssec"],
+        ["dig", domain, "MX", "+dnssec"],
+        ["dig", domain, "DNSKEY", "+dnssec"],
+        ["dig", domain, "DS", "+dnssec"],
+        ["dig", domain, "NSEC", "+dnssec"],
+        ["dig", domain, "NSEC3", "+dnssec"],
+        ["dig", domain, "NSEC3PARAM", "+dnssec"],
+    ]
 
-    # Ejecutar consultas
-    for cmd in cmds:
+    for cmd in commands:
         try:
             subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         except:
@@ -101,7 +102,7 @@ def dig_capture(domain, deep=False):
     time.sleep(0.3)
     capture.terminate()
 
-    if os.path.getsize(pcap) < 150:
+    if os.path.getsize(pcap) < 200:
         return None
 
     console.print(f"[green]✔ Captura completada:[/] {pcap}")
