@@ -1,6 +1,9 @@
 import pyshark
+from pathlib import Path
 
-PCAP_FILE = "Tareas-Reto/Tarea_3/dnssec_queries.pcapng"
+BASE_DIR = Path(__file__).resolve().parent
+PCAP_FILE = BASE_DIR / "dnssec_queries.pcapng"
+
 
 DNSSEC_TYPES = ["DNSKEY", "RRSIG", "DS", "NSEC", "NSEC3", "NSEC3PARAM"]
 
