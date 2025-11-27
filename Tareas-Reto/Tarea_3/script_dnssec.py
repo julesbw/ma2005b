@@ -1,6 +1,6 @@
 import pyshark
 
-PCAP_FILE = "dnssec_queries.pcapng"
+PCAP_FILE = "Tareas-Reto/Tarea_3/dnssec_queries.pcapng"
 
 DNSSEC_TYPES = ["DNSKEY", "RRSIG", "DS", "NSEC", "NSEC3", "NSEC3PARAM"]
 
