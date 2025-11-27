@@ -3,9 +3,9 @@ import tempfile
 import pyshark
 import os
 import sys
-import dns.message
-import dns.query
-import dns.flags
+import dns.message # type: ignore
+import dns.query  # type: ignore
+import dns.flags  # type: ignore
 
 BOLD = "\033[1m"
 RESET = "\033[0m"
