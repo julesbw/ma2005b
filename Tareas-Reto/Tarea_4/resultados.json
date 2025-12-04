@@ -1,0 +1,3047 @@
+[
+    {
+        "domain": "google.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 60,
+                "max": 1800,
+                "count": 6,
+                "sum": 2100,
+                "avg": 350.0
+            },
+            "NS": {
+                "min": 345600,
+                "max": 345600,
+                "count": 4,
+                "sum": 1382400,
+                "avg": 345600.0
+            },
+            "A": {
+                "min": 30,
+                "max": 186161,
+                "count": 10,
+                "sum": 745459,
+                "avg": 74545.9
+            },
+            "AAAA": {
+                "min": 19,
+                "max": 186161,
+                "count": 9,
+                "sum": 744831,
+                "avg": 82759.0
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 1,
+                "sum": 300,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 300,
+                "max": 300,
+                "count": 1,
+                "sum": 300,
+                "avg": 300.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "gobierno.gob.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 1800,
+                "count": 10,
+                "sum": 18000,
+                "avg": 1800.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "broken",
+            "detail": "No se pudieron obtener los DS del dominio.",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "sat.gob.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 165,
+                "max": 1800,
+                "count": 7,
+                "sum": 3465,
+                "avg": 495.0
+            },
+            "NS": {
+                "min": 15,
+                "max": 15,
+                "count": 6,
+                "sum": 90,
+                "avg": 15.0
+            },
+            "A": {
+                "min": 108,
+                "max": 108,
+                "count": 4,
+                "sum": 432,
+                "avg": 108.0
+            },
+            "TXT": {
+                "min": 1800,
+                "max": 1800,
+                "count": 9,
+                "sum": 16200,
+                "avg": 1800.0
+            },
+            "MX": {
+                "min": 60,
+                "max": 60,
+                "count": 2,
+                "sum": 120,
+                "avg": 60.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "imss.gob.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 407,
+                "max": 3600,
+                "count": 7,
+                "sum": 15944,
+                "avg": 2277.714285714286
+            },
+            "NS": {
+                "min": 1699,
+                "max": 1699,
+                "count": 3,
+                "sum": 5097,
+                "avg": 1699.0
+            },
+            "A": {
+                "min": 814,
+                "max": 2795,
+                "count": 5,
+                "sum": 9723,
+                "avg": 1944.6
+            },
+            "AAAA": {
+                "min": 1158,
+                "max": 3236,
+                "count": 3,
+                "sum": 5619,
+                "avg": 1873.0
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 8,
+                "sum": 28800,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 2073,
+                "max": 2073,
+                "count": 1,
+                "sum": 2073,
+                "avg": 2073.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "issste.gob.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 901,
+                "max": 3600,
+                "count": 7,
+                "sum": 20438,
+                "avg": 2919.714285714286
+            },
+            "NS": {
+                "min": 3600,
+                "max": 3600,
+                "count": 2,
+                "sum": 7200,
+                "avg": 3600.0
+            },
+            "A": {
+                "min": 796,
+                "max": 902,
+                "count": 2,
+                "sum": 1698,
+                "avg": 849.0
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 10,
+                "sum": 36000,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 3600,
+                "max": 3600,
+                "count": 1,
+                "sum": 3600,
+                "avg": 3600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "sep.gob.mx",
+        "dnskey": [
+            {
+                "name": "sep.gob.mx.",
+                "algorithm": 8,
+                "algorithm_name": "RSA/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 172800,
+                "ttl_ok": true
+            },
+            {
+                "name": "sep.gob.mx.",
+                "algorithm": 8,
+                "algorithm_name": "RSA/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 172800,
+                "ttl_ok": true
+            },
+            {
+                "name": "sep.gob.mx.",
+                "algorithm": 8,
+                "algorithm_name": "RSA/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 257,
+                "role": "KSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 172800,
+                "ttl_ok": true
+            },
+            {
+                "name": "sep.gob.mx.",
+                "algorithm": 8,
+                "algorithm_name": "RSA/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 172800,
+                "ttl_ok": true
+            }
+        ],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": true,
+            "mode": "NSEC3"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 60,
+                "max": 1800,
+                "count": 5,
+                "sum": 2040,
+                "avg": 408.0
+            },
+            "NS": {
+                "min": 60,
+                "max": 60,
+                "count": 10,
+                "sum": 600,
+                "avg": 60.0
+            },
+            "A": {
+                "min": 300,
+                "max": 2507,
+                "count": 6,
+                "sum": 9406,
+                "avg": 1567.6666666666667
+            },
+            "AAAA": {
+                "min": 1102,
+                "max": 3593,
+                "count": 4,
+                "sum": 9062,
+                "avg": 2265.5
+            },
+            "TXT": {
+                "min": 60,
+                "max": 60,
+                "count": 19,
+                "sum": 1140,
+                "avg": 60.0
+            },
+            "MX": {
+                "min": 300,
+                "max": 300,
+                "count": 2,
+                "sum": 600,
+                "avg": 300.0
+            },
+            "DNSKEY": {
+                "min": 172800,
+                "max": 172800,
+                "count": 4,
+                "sum": 691200,
+                "avg": 172800.0
+            },
+            "NSEC3PARAM": {
+                "min": 60,
+                "max": 60,
+                "count": 1,
+                "sum": 60,
+                "avg": 60.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "unam.mx",
+        "dnskey": [
+            {
+                "name": "unam.mx.",
+                "algorithm": 13,
+                "algorithm_name": "ECDSA P-256/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 257,
+                "role": "KSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 7200,
+                "ttl_ok": true
+            },
+            {
+                "name": "unam.mx.",
+                "algorithm": 13,
+                "algorithm_name": "ECDSA P-256/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 7200,
+                "ttl_ok": true
+            }
+        ],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": true,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "NSEC"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 300,
+                "max": 7200,
+                "count": 3,
+                "sum": 7800,
+                "avg": 2600.0
+            },
+            "NS": {
+                "min": 7111,
+                "max": 7111,
+                "count": 5,
+                "sum": 35555,
+                "avg": 7111.0
+            },
+            "A": {
+                "min": 5962,
+                "max": 5962,
+                "count": 4,
+                "sum": 23848,
+                "avg": 5962.0
+            },
+            "AAAA": {
+                "min": 2035,
+                "max": 2035,
+                "count": 4,
+                "sum": 8140,
+                "avg": 2035.0
+            },
+            "TXT": {
+                "min": 5290,
+                "max": 5290,
+                "count": 1,
+                "sum": 5290,
+                "avg": 5290.0
+            },
+            "MX": {
+                "min": 7200,
+                "max": 7200,
+                "count": 1,
+                "sum": 7200,
+                "avg": 7200.0
+            },
+            "DNSKEY": {
+                "min": 7200,
+                "max": 7200,
+                "count": 2,
+                "sum": 14400,
+                "avg": 7200.0
+            },
+            "DS": {
+                "min": 86400,
+                "max": 86400,
+                "count": 1,
+                "sum": 86400,
+                "avg": 86400.0
+            },
+            "NSEC": {
+                "min": 300,
+                "max": 300,
+                "count": 1,
+                "sum": 300,
+                "avg": 300.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": true,
+            "chain_status": "valid",
+            "detail": "DS coincide con DNSKEY (keytag 54058).",
+            "ds_count": 1
+        }
+    },
+    {
+        "domain": "ipn.mx",
+        "dnskey": [
+            {
+                "name": "ipn.mx.",
+                "algorithm": 10,
+                "algorithm_name": "RSA/SHA-512",
+                "algorithm_allowed": true,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 86400,
+                "ttl_ok": true
+            },
+            {
+                "name": "ipn.mx.",
+                "algorithm": 10,
+                "algorithm_name": "RSA/SHA-512",
+                "algorithm_allowed": true,
+                "flags": 257,
+                "role": "KSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 86400,
+                "ttl_ok": true
+            }
+        ],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": true,
+            "mode": "NSEC3"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 3600,
+                "count": 3,
+                "sum": 8556,
+                "avg": 2852.0
+            },
+            "NS": {
+                "min": 1800,
+                "max": 1800,
+                "count": 3,
+                "sum": 5400,
+                "avg": 1800.0
+            },
+            "A": {
+                "min": 3032,
+                "max": 3032,
+                "count": 1,
+                "sum": 3032,
+                "avg": 3032.0
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 9,
+                "sum": 32400,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 3477,
+                "max": 3477,
+                "count": 1,
+                "sum": 3477,
+                "avg": 3477.0
+            },
+            "DNSKEY": {
+                "min": 86400,
+                "max": 86400,
+                "count": 2,
+                "sum": 172800,
+                "avg": 86400.0
+            },
+            "NSEC3PARAM": {
+                "min": 3600,
+                "max": 3600,
+                "count": 1,
+                "sum": 3600,
+                "avg": 3600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "tecmilenio.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 824,
+                "max": 3600,
+                "count": 7,
+                "sum": 9824,
+                "avg": 1403.4285714285713
+            },
+            "NS": {
+                "min": 1151,
+                "max": 1151,
+                "count": 2,
+                "sum": 2302,
+                "avg": 1151.0
+            },
+            "A": {
+                "min": 674,
+                "max": 1789,
+                "count": 4,
+                "sum": 4650,
+                "avg": 1162.5
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 16,
+                "sum": 57600,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 3600,
+                "max": 3600,
+                "count": 1,
+                "sum": 3600,
+                "avg": 3600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "itesm.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 481,
+                "max": 1800,
+                "count": 8,
+                "sum": 7712,
+                "avg": 964.0
+            },
+            "NS": {
+                "min": 1297,
+                "max": 1297,
+                "count": 2,
+                "sum": 2594,
+                "avg": 1297.0
+            },
+            "A": {
+                "min": 974,
+                "max": 1172,
+                "count": 2,
+                "sum": 2146,
+                "avg": 1073.0
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 11,
+                "sum": 39600,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 177,
+                "max": 177,
+                "count": 1,
+                "sum": 177,
+                "avg": 177.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "uam.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1106,
+                "max": 3600,
+                "count": 8,
+                "sum": 22444,
+                "avg": 2805.5
+            },
+            "NS": {
+                "min": 3178,
+                "max": 3178,
+                "count": 6,
+                "sum": 19068,
+                "avg": 3178.0
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 1,
+                "sum": 3600,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 3600,
+                "max": 3600,
+                "count": 1,
+                "sum": 3600,
+                "avg": 3600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "uanl.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 940,
+                "max": 2400,
+                "count": 7,
+                "sum": 14740,
+                "avg": 2105.714285714286
+            },
+            "NS": {
+                "min": 2400,
+                "max": 2400,
+                "count": 2,
+                "sum": 4800,
+                "avg": 2400.0
+            },
+            "A": {
+                "min": 384,
+                "max": 10016,
+                "count": 3,
+                "sum": 12393,
+                "avg": 4131.0
+            },
+            "TXT": {
+                "min": 2400,
+                "max": 2400,
+                "count": 10,
+                "sum": 24000,
+                "avg": 2400.0
+            },
+            "MX": {
+                "min": 2400,
+                "max": 2400,
+                "count": 4,
+                "sum": 9600,
+                "avg": 2400.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "udg.mx",
+        "dnskey": [
+            {
+                "name": "udg.mx.",
+                "algorithm": 7,
+                "algorithm_name": "RSASHA1-NSEC3-SHA1",
+                "algorithm_allowed": false,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 172800,
+                "ttl_ok": true
+            },
+            {
+                "name": "udg.mx.",
+                "algorithm": 7,
+                "algorithm_name": "RSASHA1-NSEC3-SHA1",
+                "algorithm_allowed": false,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 172800,
+                "ttl_ok": true
+            },
+            {
+                "name": "udg.mx.",
+                "algorithm": 7,
+                "algorithm_name": "RSASHA1-NSEC3-SHA1",
+                "algorithm_allowed": false,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 172800,
+                "ttl_ok": true
+            },
+            {
+                "name": "udg.mx.",
+                "algorithm": 7,
+                "algorithm_name": "RSASHA1-NSEC3-SHA1",
+                "algorithm_allowed": false,
+                "flags": 257,
+                "role": "KSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 172800,
+                "ttl_ok": true
+            }
+        ],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": true,
+            "mode": "NSEC3"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 900,
+                "max": 21600,
+                "count": 4,
+                "sum": 25200,
+                "avg": 6300.0
+            },
+            "NS": {
+                "min": 5552,
+                "max": 5552,
+                "count": 3,
+                "sum": 16656,
+                "avg": 5552.0
+            },
+            "A": {
+                "min": 211,
+                "max": 211,
+                "count": 1,
+                "sum": 211,
+                "avg": 211.0
+            },
+            "AAAA": {
+                "min": 19491,
+                "max": 19491,
+                "count": 1,
+                "sum": 19491,
+                "avg": 19491.0
+            },
+            "TXT": {
+                "min": 900,
+                "max": 900,
+                "count": 11,
+                "sum": 9900,
+                "avg": 900.0
+            },
+            "MX": {
+                "min": 900,
+                "max": 900,
+                "count": 5,
+                "sum": 4500,
+                "avg": 900.0
+            },
+            "DNSKEY": {
+                "min": 172800,
+                "max": 172800,
+                "count": 4,
+                "sum": 691200,
+                "avg": 172800.0
+            },
+            "NSEC3PARAM": {
+                "min": 900,
+                "max": 900,
+                "count": 1,
+                "sum": 900,
+                "avg": 900.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "infonavit.org.mx",
+        "dnskey": [
+            {
+                "name": "infonavit.org.mx.",
+                "algorithm": 8,
+                "algorithm_name": "RSA/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 172800,
+                "ttl_ok": true
+            },
+            {
+                "name": "infonavit.org.mx.",
+                "algorithm": 8,
+                "algorithm_name": "RSA/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 257,
+                "role": "KSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 172800,
+                "ttl_ok": true
+            },
+            {
+                "name": "infonavit.org.mx.",
+                "algorithm": 8,
+                "algorithm_name": "RSA/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 172800,
+                "ttl_ok": true
+            }
+        ],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": true,
+            "mode": "NSEC3"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 300,
+                "max": 300,
+                "count": 4,
+                "sum": 1200,
+                "avg": 300.0
+            },
+            "NS": {
+                "min": 300,
+                "max": 300,
+                "count": 4,
+                "sum": 1200,
+                "avg": 300.0
+            },
+            "A": {
+                "min": 52,
+                "max": 52,
+                "count": 1,
+                "sum": 52,
+                "avg": 52.0
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 20,
+                "sum": 6000,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 300,
+                "max": 300,
+                "count": 1,
+                "sum": 300,
+                "avg": 300.0
+            },
+            "DNSKEY": {
+                "min": 172800,
+                "max": 172800,
+                "count": 3,
+                "sum": 518400,
+                "avg": 172800.0
+            },
+            "DS": {
+                "min": 86400,
+                "max": 86400,
+                "count": 3,
+                "sum": 259200,
+                "avg": 86400.0
+            },
+            "NSEC3PARAM": {
+                "min": 300,
+                "max": 300,
+                "count": 1,
+                "sum": 300,
+                "avg": 300.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": true,
+            "chain_status": "broken",
+            "detail": "Ningún DNSKEY coincide con el DS — cadena rota.",
+            "ds_count": 3
+        }
+    },
+    {
+        "domain": "profeco.gob.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 900,
+                "max": 21600,
+                "count": 6,
+                "sum": 27000,
+                "avg": 4500.0
+            },
+            "NS": {
+                "min": 3048,
+                "max": 3048,
+                "count": 3,
+                "sum": 9144,
+                "avg": 3048.0
+            },
+            "A": {
+                "min": 7959,
+                "max": 7959,
+                "count": 1,
+                "sum": 7959,
+                "avg": 7959.0
+            },
+            "AAAA": {
+                "min": 15163,
+                "max": 15163,
+                "count": 1,
+                "sum": 15163,
+                "avg": 15163.0
+            },
+            "TXT": {
+                "min": 28800,
+                "max": 28800,
+                "count": 8,
+                "sum": 230400,
+                "avg": 28800.0
+            },
+            "MX": {
+                "min": 9146,
+                "max": 9146,
+                "count": 1,
+                "sum": 9146,
+                "avg": 9146.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "ine.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 325,
+                "max": 1800,
+                "count": 7,
+                "sum": 6625,
+                "avg": 946.4285714285714
+            },
+            "NS": {
+                "min": 60,
+                "max": 60,
+                "count": 4,
+                "sum": 240,
+                "avg": 60.0
+            },
+            "A": {
+                "min": 38,
+                "max": 38,
+                "count": 4,
+                "sum": 152,
+                "avg": 38.0
+            },
+            "TXT": {
+                "min": 180,
+                "max": 180,
+                "count": 16,
+                "sum": 2880,
+                "avg": 180.0
+            },
+            "MX": {
+                "min": 180,
+                "max": 180,
+                "count": 1,
+                "sum": 180,
+                "avg": 180.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "banxico.org.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 255,
+                "max": 3600,
+                "count": 8,
+                "sum": 10155,
+                "avg": 1269.375
+            },
+            "NS": {
+                "min": 34,
+                "max": 34,
+                "count": 2,
+                "sum": 68,
+                "avg": 34.0
+            },
+            "TXT": {
+                "min": 340,
+                "max": 340,
+                "count": 6,
+                "sum": 2040,
+                "avg": 340.0
+            },
+            "MX": {
+                "min": 3600,
+                "max": 3600,
+                "count": 2,
+                "sum": 7200,
+                "avg": 3600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "conacyt.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 60,
+                "max": 1800,
+                "count": 7,
+                "sum": 2160,
+                "avg": 308.57142857142856
+            },
+            "NS": {
+                "min": 60,
+                "max": 60,
+                "count": 3,
+                "sum": 180,
+                "avg": 60.0
+            },
+            "A": {
+                "min": 9,
+                "max": 9,
+                "count": 2,
+                "sum": 18,
+                "avg": 9.0
+            },
+            "TXT": {
+                "min": 60,
+                "max": 60,
+                "count": 3,
+                "sum": 180,
+                "avg": 60.0
+            },
+            "MX": {
+                "min": 60,
+                "max": 60,
+                "count": 1,
+                "sum": 60,
+                "avg": 60.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "conagua.gob.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 3600,
+                "count": 7,
+                "sum": 23400,
+                "avg": 3342.8571428571427
+            },
+            "NS": {
+                "min": 3600,
+                "max": 3600,
+                "count": 2,
+                "sum": 7200,
+                "avg": 3600.0
+            },
+            "A": {
+                "min": 3600,
+                "max": 3600,
+                "count": 2,
+                "sum": 7200,
+                "avg": 3600.0
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 5,
+                "sum": 18000,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 2260,
+                "max": 2260,
+                "count": 2,
+                "sum": 4520,
+                "avg": 2260.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "semarnat.gob.mx",
+        "dnskey": [
+            {
+                "name": "semarnat.gob.mx.",
+                "algorithm": 7,
+                "algorithm_name": "RSASHA1-NSEC3-SHA1",
+                "algorithm_allowed": false,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 3600,
+                "ttl_ok": true
+            },
+            {
+                "name": "semarnat.gob.mx.",
+                "algorithm": 7,
+                "algorithm_name": "RSASHA1-NSEC3-SHA1",
+                "algorithm_allowed": false,
+                "flags": 257,
+                "role": "KSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 3600,
+                "ttl_ok": true
+            }
+        ],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": true,
+            "mode": "NSEC3"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 172800,
+                "count": 4,
+                "sum": 178200,
+                "avg": 44550.0
+            },
+            "NS": {
+                "min": 172800,
+                "max": 172800,
+                "count": 3,
+                "sum": 518400,
+                "avg": 172800.0
+            },
+            "A": {
+                "min": 2003,
+                "max": 86400,
+                "count": 4,
+                "sum": 94200,
+                "avg": 23550.0
+            },
+            "AAAA": {
+                "min": 124,
+                "max": 176,
+                "count": 3,
+                "sum": 428,
+                "avg": 142.66666666666666
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 2,
+                "sum": 600,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 16332,
+                "max": 16332,
+                "count": 1,
+                "sum": 16332,
+                "avg": 16332.0
+            },
+            "DNSKEY": {
+                "min": 3600,
+                "max": 3600,
+                "count": 2,
+                "sum": 7200,
+                "avg": 3600.0
+            },
+            "DS": {
+                "min": 86400,
+                "max": 86400,
+                "count": 1,
+                "sum": 86400,
+                "avg": 86400.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": true,
+            "chain_status": "valid",
+            "detail": "DS coincide con DNSKEY (keytag 36519).",
+            "ds_count": 1
+        }
+    },
+    {
+        "domain": "pemex.com.mx",
+        "dnskey": [
+            {
+                "name": "pemex.com.mx.",
+                "algorithm": 13,
+                "algorithm_name": "ECDSA P-256/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 7200,
+                "ttl_ok": true
+            },
+            {
+                "name": "pemex.com.mx.",
+                "algorithm": 13,
+                "algorithm_name": "ECDSA P-256/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 257,
+                "role": "KSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 7200,
+                "ttl_ok": true
+            },
+            {
+                "name": "pemex.com.mx.",
+                "algorithm": 13,
+                "algorithm_name": "ECDSA P-256/SHA-256",
+                "algorithm_allowed": true,
+                "flags": 256,
+                "role": "ZSK",
+                "proto": 3,
+                "proto_ok": true,
+                "ttl": 7200,
+                "ttl_ok": true
+            }
+        ],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": true,
+            "mode": "NSEC3"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 300,
+                "max": 3600,
+                "count": 6,
+                "sum": 5100,
+                "avg": 850.0
+            },
+            "NS": {
+                "min": 86400,
+                "max": 86400,
+                "count": 2,
+                "sum": 172800,
+                "avg": 86400.0
+            },
+            "A": {
+                "min": 58688,
+                "max": 58688,
+                "count": 1,
+                "sum": 58688,
+                "avg": 58688.0
+            },
+            "AAAA": {
+                "min": 59467,
+                "max": 59467,
+                "count": 1,
+                "sum": 59467,
+                "avg": 59467.0
+            },
+            "MX": {
+                "min": 1,
+                "max": 1,
+                "count": 1,
+                "sum": 1,
+                "avg": 1.0
+            },
+            "DNSKEY": {
+                "min": 7200,
+                "max": 7200,
+                "count": 3,
+                "sum": 21600,
+                "avg": 7200.0
+            },
+            "DS": {
+                "min": 86400,
+                "max": 86400,
+                "count": 1,
+                "sum": 86400,
+                "avg": 86400.0
+            },
+            "NSEC3PARAM": {
+                "min": 300,
+                "max": 300,
+                "count": 1,
+                "sum": 300,
+                "avg": 300.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": true,
+            "chain_status": "valid",
+            "detail": "DS coincide con DNSKEY (keytag 725).",
+            "ds_count": 1
+        }
+    },
+    {
+        "domain": "cfe.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1310,
+                "max": 2218,
+                "count": 7,
+                "sum": 12528,
+                "avg": 1789.7142857142858
+            },
+            "NS": {
+                "min": 2195,
+                "max": 2195,
+                "count": 3,
+                "sum": 6585,
+                "avg": 2195.0
+            },
+            "A": {
+                "min": 1550,
+                "max": 3091,
+                "count": 5,
+                "sum": 11274,
+                "avg": 2254.8
+            },
+            "AAAA": {
+                "min": 677,
+                "max": 3242,
+                "count": 3,
+                "sum": 7161,
+                "avg": 2387.0
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 7,
+                "sum": 2100,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 3600,
+                "max": 3600,
+                "count": 1,
+                "sum": 3600,
+                "avg": 3600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "bbva.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 561,
+                "max": 3600,
+                "count": 7,
+                "sum": 14961,
+                "avg": 2137.285714285714
+            },
+            "NS": {
+                "min": 86400,
+                "max": 86400,
+                "count": 8,
+                "sum": 691200,
+                "avg": 86400.0
+            },
+            "A": {
+                "min": 20,
+                "max": 57525,
+                "count": 13,
+                "sum": 287627,
+                "avg": 22125.153846153848
+            },
+            "AAAA": {
+                "min": 69,
+                "max": 60102,
+                "count": 11,
+                "sum": 219941,
+                "avg": 19994.636363636364
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 14,
+                "sum": 4200,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 1800,
+                "max": 1800,
+                "count": 5,
+                "sum": 9000,
+                "avg": 1800.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "santander.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 278,
+                "max": 1800,
+                "count": 7,
+                "sum": 3578,
+                "avg": 511.14285714285717
+            },
+            "NS": {
+                "min": 300,
+                "max": 300,
+                "count": 8,
+                "sum": 2400,
+                "avg": 300.0
+            },
+            "A": {
+                "min": 20,
+                "max": 58866,
+                "count": 7,
+                "sum": 259971,
+                "avg": 37138.71428571428
+            },
+            "AAAA": {
+                "min": 76984,
+                "max": 76984,
+                "count": 1,
+                "sum": 76984,
+                "avg": 76984.0
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 29,
+                "sum": 8700,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 300,
+                "max": 300,
+                "count": 4,
+                "sum": 1200,
+                "avg": 300.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "banorte.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 149,
+                "max": 28800,
+                "count": 8,
+                "sum": 35116,
+                "avg": 4389.5
+            },
+            "NS": {
+                "min": 28800,
+                "max": 28800,
+                "count": 2,
+                "sum": 57600,
+                "avg": 28800.0
+            },
+            "A": {
+                "min": 300,
+                "max": 300,
+                "count": 2,
+                "sum": 600,
+                "avg": 300.0
+            },
+            "TXT": {
+                "min": 120,
+                "max": 120,
+                "count": 2,
+                "sum": 240,
+                "avg": 120.0
+            },
+            "MX": {
+                "min": 120,
+                "max": 120,
+                "count": 4,
+                "sum": 480,
+                "avg": 120.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "hsbc.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 900,
+                "max": 3600,
+                "count": 7,
+                "sum": 9900,
+                "avg": 1414.2857142857142
+            },
+            "NS": {
+                "min": 3600,
+                "max": 3600,
+                "count": 6,
+                "sum": 21600,
+                "avg": 3600.0
+            },
+            "A": {
+                "min": 300,
+                "max": 300,
+                "count": 2,
+                "sum": 600,
+                "avg": 300.0
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 16,
+                "sum": 4800,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 339,
+                "max": 339,
+                "count": 2,
+                "sum": 678,
+                "avg": 339.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "liverpool.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1,
+                "max": 14400,
+                "count": 7,
+                "sum": 19801,
+                "avg": 2828.714285714286
+            },
+            "NS": {
+                "min": 14400,
+                "max": 14400,
+                "count": 4,
+                "sum": 57600,
+                "avg": 14400.0
+            },
+            "A": {
+                "min": 107,
+                "max": 14045,
+                "count": 8,
+                "sum": 35291,
+                "avg": 4411.375
+            },
+            "TXT": {
+                "min": 600,
+                "max": 600,
+                "count": 19,
+                "sum": 11400,
+                "avg": 600.0
+            },
+            "MX": {
+                "min": 14400,
+                "max": 14400,
+                "count": 5,
+                "sum": 72000,
+                "avg": 14400.0
+            },
+            "AAAA": {
+                "min": 62,
+                "max": 212,
+                "count": 5,
+                "sum": 910,
+                "avg": 182.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "walmart.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 3600,
+                "count": 6,
+                "sum": 12600,
+                "avg": 2100.0
+            },
+            "NS": {
+                "min": 21600,
+                "max": 21600,
+                "count": 6,
+                "sum": 129600,
+                "avg": 21600.0
+            },
+            "A": {
+                "min": 8,
+                "max": 8,
+                "count": 1,
+                "sum": 8,
+                "avg": 8.0
+            },
+            "AAAA": {
+                "min": 6,
+                "max": 6,
+                "count": 2,
+                "sum": 12,
+                "avg": 6.0
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 8,
+                "sum": 28800,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 3600,
+                "max": 3600,
+                "count": 2,
+                "sum": 7200,
+                "avg": 3600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "soriana.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 300,
+                "max": 3600,
+                "count": 7,
+                "sum": 6900,
+                "avg": 985.7142857142857
+            },
+            "NS": {
+                "min": 300,
+                "max": 300,
+                "count": 2,
+                "sum": 600,
+                "avg": 300.0
+            },
+            "A": {
+                "min": 33,
+                "max": 33,
+                "count": 1,
+                "sum": 33,
+                "avg": 33.0
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 3,
+                "sum": 900,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 300,
+                "max": 300,
+                "count": 1,
+                "sum": 300,
+                "avg": 300.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "cinepolis.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 900,
+                "max": 1800,
+                "count": 7,
+                "sum": 7200,
+                "avg": 1028.5714285714287
+            },
+            "NS": {
+                "min": 900,
+                "max": 900,
+                "count": 4,
+                "sum": 3600,
+                "avg": 900.0
+            },
+            "A": {
+                "min": 60,
+                "max": 60,
+                "count": 2,
+                "sum": 120,
+                "avg": 60.0
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 3,
+                "sum": 10800,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 1359,
+                "max": 1359,
+                "count": 1,
+                "sum": 1359,
+                "avg": 1359.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "cinemex.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 180,
+                "max": 21600,
+                "count": 9,
+                "sum": 24660,
+                "avg": 2740.0
+            },
+            "NS": {
+                "min": 86400,
+                "max": 86400,
+                "count": 4,
+                "sum": 345600,
+                "avg": 86400.0
+            },
+            "A": {
+                "min": 299,
+                "max": 1800,
+                "count": 5,
+                "sum": 7499,
+                "avg": 1499.8
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "telcel.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 3600,
+                "count": 7,
+                "sum": 23400,
+                "avg": 3342.8571428571427
+            },
+            "NS": {
+                "min": 3600,
+                "max": 3600,
+                "count": 4,
+                "sum": 14400,
+                "avg": 3600.0
+            },
+            "A": {
+                "min": 79,
+                "max": 3600,
+                "count": 5,
+                "sum": 4191,
+                "avg": 838.2
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 4,
+                "sum": 14400,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 3600,
+                "max": 3600,
+                "count": 1,
+                "sum": 3600,
+                "avg": 3600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "telmex.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 3600,
+                "count": 8,
+                "sum": 27000,
+                "avg": 3375.0
+            },
+            "NS": {
+                "min": 300,
+                "max": 300,
+                "count": 4,
+                "sum": 1200,
+                "avg": 300.0
+            },
+            "A": {
+                "min": 300,
+                "max": 300,
+                "count": 2,
+                "sum": 600,
+                "avg": 300.0
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 3,
+                "sum": 900,
+                "avg": 300.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "megacable.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 239,
+                "max": 3600,
+                "count": 7,
+                "sum": 6839,
+                "avg": 977.0
+            },
+            "NS": {
+                "min": 3600,
+                "max": 3600,
+                "count": 6,
+                "sum": 21600,
+                "avg": 3600.0
+            },
+            "A": {
+                "min": 2337,
+                "max": 2337,
+                "count": 2,
+                "sum": 4674,
+                "avg": 2337.0
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 1,
+                "sum": 3600,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 2495,
+                "max": 2495,
+                "count": 2,
+                "sum": 4990,
+                "avg": 2495.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "totalplay.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 60,
+                "max": 1800,
+                "count": 7,
+                "sum": 2160,
+                "avg": 308.57142857142856
+            },
+            "NS": {
+                "min": 60,
+                "max": 60,
+                "count": 3,
+                "sum": 180,
+                "avg": 60.0
+            },
+            "A": {
+                "min": 12,
+                "max": 3579,
+                "count": 11,
+                "sum": 14561,
+                "avg": 1323.7272727272727
+            },
+            "AAAA": {
+                "min": 14,
+                "max": 21,
+                "count": 2,
+                "sum": 35,
+                "avg": 17.5
+            },
+            "TXT": {
+                "min": 60,
+                "max": 60,
+                "count": 15,
+                "sum": 900,
+                "avg": 60.0
+            },
+            "MX": {
+                "min": 60,
+                "max": 60,
+                "count": 2,
+                "sum": 120,
+                "avg": 60.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "claro.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 3600,
+                "count": 10,
+                "sum": 34200,
+                "avg": 3420.0
+            },
+            "NS": {
+                "min": 3600,
+                "max": 3600,
+                "count": 3,
+                "sum": 10800,
+                "avg": 3600.0
+            },
+            "A": {
+                "min": 254,
+                "max": 1080,
+                "count": 3,
+                "sum": 2004,
+                "avg": 668.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "mercado libre.com.mx (mercadolibre.com.mx)",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 10799,
+                "max": 86398,
+                "count": 11,
+                "sum": 269973,
+                "avg": 24543.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "broken",
+            "detail": "No se pudieron obtener los DS del dominio.",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "amazon.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 363,
+                "max": 1800,
+                "count": 7,
+                "sum": 6663,
+                "avg": 951.8571428571429
+            },
+            "NS": {
+                "min": 5659,
+                "max": 5659,
+                "count": 8,
+                "sum": 45272,
+                "avg": 5659.0
+            },
+            "A": {
+                "min": 106,
+                "max": 106,
+                "count": 3,
+                "sum": 318,
+                "avg": 106.0
+            },
+            "TXT": {
+                "min": 900,
+                "max": 900,
+                "count": 16,
+                "sum": 14400,
+                "avg": 900.0
+            },
+            "MX": {
+                "min": 900,
+                "max": 900,
+                "count": 1,
+                "sum": 900,
+                "avg": 900.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "uber.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 300,
+                "max": 1800,
+                "count": 8,
+                "sum": 3900,
+                "avg": 487.5
+            },
+            "NS": {
+                "min": 14400,
+                "max": 14400,
+                "count": 3,
+                "sum": 43200,
+                "avg": 14400.0
+            },
+            "A": {
+                "min": 117,
+                "max": 300,
+                "count": 4,
+                "sum": 852,
+                "avg": 213.0
+            },
+            "MX": {
+                "min": 300,
+                "max": 300,
+                "count": 1,
+                "sum": 300,
+                "avg": 300.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "diariodequeretaro.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 300,
+                "max": 21600,
+                "count": 6,
+                "sum": 24600,
+                "avg": 4100.0
+            },
+            "NS": {
+                "min": 21600,
+                "max": 21600,
+                "count": 4,
+                "sum": 86400,
+                "avg": 21600.0
+            },
+            "A": {
+                "min": 60,
+                "max": 186120,
+                "count": 8,
+                "sum": 744690,
+                "avg": 93086.25
+            },
+            "AAAA": {
+                "min": 60,
+                "max": 186237,
+                "count": 12,
+                "sum": 745267,
+                "avg": 62105.583333333336
+            },
+            "TXT": {
+                "min": 60,
+                "max": 60,
+                "count": 6,
+                "sum": 360,
+                "avg": 60.0
+            },
+            "MX": {
+                "min": 300,
+                "max": 300,
+                "count": 5,
+                "sum": 1500,
+                "avg": 300.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "reforma.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 900,
+                "max": 1800,
+                "count": 8,
+                "sum": 8100,
+                "avg": 1012.5
+            },
+            "NS": {
+                "min": 172800,
+                "max": 172800,
+                "count": 4,
+                "sum": 691200,
+                "avg": 172800.0
+            },
+            "A": {
+                "min": 60,
+                "max": 13931,
+                "count": 8,
+                "sum": 54703,
+                "avg": 6837.875
+            },
+            "AAAA": {
+                "min": 13553,
+                "max": 14120,
+                "count": 4,
+                "sum": 55466,
+                "avg": 13866.5
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 1,
+                "sum": 300,
+                "avg": 300.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "eluniversal.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1446,
+                "max": 1800,
+                "count": 7,
+                "sum": 12246,
+                "avg": 1749.4285714285713
+            },
+            "NS": {
+                "min": 21600,
+                "max": 21600,
+                "count": 2,
+                "sum": 43200,
+                "avg": 21600.0
+            },
+            "A": {
+                "min": 30,
+                "max": 30,
+                "count": 2,
+                "sum": 60,
+                "avg": 30.0
+            },
+            "TXT": {
+                "min": 60,
+                "max": 60,
+                "count": 12,
+                "sum": 720,
+                "avg": 60.0
+            },
+            "MX": {
+                "min": 3600,
+                "max": 3600,
+                "count": 1,
+                "sum": 3600,
+                "avg": 3600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "milenio.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 1800,
+                "count": 1,
+                "sum": 1800,
+                "avg": 1800.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "proceso.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 1800,
+                "count": 6,
+                "sum": 10800,
+                "avg": 1800.0
+            },
+            "NS": {
+                "min": 86400,
+                "max": 86400,
+                "count": 2,
+                "sum": 172800,
+                "avg": 86400.0
+            },
+            "A": {
+                "min": 300,
+                "max": 8251,
+                "count": 8,
+                "sum": 49014,
+                "avg": 6126.75
+            },
+            "AAAA": {
+                "min": 300,
+                "max": 28278,
+                "count": 8,
+                "sum": 115929,
+                "avg": 14491.125
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 8,
+                "sum": 2400,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 84,
+                "max": 84,
+                "count": 1,
+                "sum": 84,
+                "avg": 84.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "eleconomista.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 1800,
+                "count": 6,
+                "sum": 10800,
+                "avg": 1800.0
+            },
+            "NS": {
+                "min": 86400,
+                "max": 86400,
+                "count": 2,
+                "sum": 172800,
+                "avg": 86400.0
+            },
+            "A": {
+                "min": 300,
+                "max": 8203,
+                "count": 8,
+                "sum": 49314,
+                "avg": 6164.25
+            },
+            "AAAA": {
+                "min": 300,
+                "max": 9431,
+                "count": 8,
+                "sum": 55269,
+                "avg": 6908.625
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 9,
+                "sum": 2700,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 539,
+                "max": 539,
+                "count": 1,
+                "sum": 539,
+                "avg": 539.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "elempresario.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 1800,
+                "count": 6,
+                "sum": 10800,
+                "avg": 1800.0
+            },
+            "NS": {
+                "min": 86400,
+                "max": 86400,
+                "count": 2,
+                "sum": 172800,
+                "avg": 86400.0
+            },
+            "A": {
+                "min": 300,
+                "max": 8070,
+                "count": 8,
+                "sum": 48624,
+                "avg": 6078.0
+            },
+            "AAAA": {
+                "min": 300,
+                "max": 8907,
+                "count": 8,
+                "sum": 51570,
+                "avg": 6446.25
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 1,
+                "sum": 300,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 300,
+                "max": 300,
+                "count": 3,
+                "sum": 900,
+                "avg": 300.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "occ.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 1800,
+                "count": 6,
+                "sum": 10800,
+                "avg": 1800.0
+            },
+            "NS": {
+                "min": 86400,
+                "max": 86400,
+                "count": 2,
+                "sum": 172800,
+                "avg": 86400.0
+            },
+            "A": {
+                "min": 300,
+                "max": 8398,
+                "count": 8,
+                "sum": 49542,
+                "avg": 6192.75
+            },
+            "AAAA": {
+                "min": 300,
+                "max": 9794,
+                "count": 8,
+                "sum": 55185,
+                "avg": 6898.125
+            },
+            "TXT": {
+                "min": 300,
+                "max": 300,
+                "count": 7,
+                "sum": 2100,
+                "avg": 300.0
+            },
+            "MX": {
+                "min": 261,
+                "max": 261,
+                "count": 1,
+                "sum": 261,
+                "avg": 261.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "computrabajo.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 871,
+                "max": 1800,
+                "count": 7,
+                "sum": 7171,
+                "avg": 1024.4285714285713
+            },
+            "NS": {
+                "min": 21600,
+                "max": 21600,
+                "count": 4,
+                "sum": 86400,
+                "avg": 21600.0
+            },
+            "A": {
+                "min": 60,
+                "max": 60,
+                "count": 2,
+                "sum": 120,
+                "avg": 60.0
+            },
+            "TXT": {
+                "min": 3600,
+                "max": 3600,
+                "count": 2,
+                "sum": 7200,
+                "avg": 3600.0
+            },
+            "MX": {
+                "min": 3600,
+                "max": 3600,
+                "count": 1,
+                "sum": 3600,
+                "avg": 3600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "infobae.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 1800,
+                "max": 21600,
+                "count": 9,
+                "sum": 54000,
+                "avg": 6000.0
+            },
+            "NS": {
+                "min": 21600,
+                "max": 21600,
+                "count": 7,
+                "sum": 151200,
+                "avg": 21600.0
+            },
+            "A": {
+                "min": 3600,
+                "max": 3600,
+                "count": 1,
+                "sum": 3600,
+                "avg": 3600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    },
+    {
+        "domain": "trivago.com.mx",
+        "dnskey": [],
+        "rrsig": [],
+        "nsec": {
+            "has_nsec": false,
+            "has_nsec3": false,
+            "has_nsec3param": false,
+            "mode": "none"
+        },
+        "ttl_stats": {
+            "SOA": {
+                "min": 600,
+                "max": 1800,
+                "count": 6,
+                "sum": 4800,
+                "avg": 800.0
+            },
+            "NS": {
+                "min": 600,
+                "max": 600,
+                "count": 6,
+                "sum": 3600,
+                "avg": 600.0
+            },
+            "A": {
+                "min": 20,
+                "max": 89528,
+                "count": 8,
+                "sum": 373207,
+                "avg": 46650.875
+            },
+            "AAAA": {
+                "min": 20,
+                "max": 88706,
+                "count": 8,
+                "sum": 352897,
+                "avg": 44112.125
+            },
+            "TXT": {
+                "min": 600,
+                "max": 600,
+                "count": 7,
+                "sum": 4200,
+                "avg": 600.0
+            },
+            "MX": {
+                "min": 600,
+                "max": 600,
+                "count": 1,
+                "sum": 600,
+                "avg": 600.0
+            }
+        },
+        "ds_chain": {
+            "has_ds": false,
+            "chain_status": "no_dnssec",
+            "detail": "El dominio NO implementa DNSSEC (no hay DS en el TLD).",
+            "ds_count": 0
+        }
+    }
+]

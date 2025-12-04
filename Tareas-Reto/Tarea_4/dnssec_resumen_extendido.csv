@@ -1,0 +1,51 @@
+Dominio,Estado DNSSEC,Sector,Tiene DS,chain_status,Algoritmos DNSKEY,Score_seguridad
+google.com.mx,No DNSSEC,Tecnología / Servicios digitales,False,no_dnssec,N/A,0
+gobierno.gob.mx,No DNSSEC,Gobierno,False,broken,N/A,0
+sat.gob.mx,No DNSSEC,Gobierno,False,no_dnssec,N/A,0
+imss.gob.mx,No DNSSEC,Gobierno,False,no_dnssec,N/A,0
+issste.gob.mx,No DNSSEC,Gobierno,False,no_dnssec,N/A,0
+sep.gob.mx,Firmado sin DS (incompleto),Gobierno,False,no_dnssec,RSA/SHA-256,1
+unam.mx,DNSSEC válido,Educación,True,valid,ECDSA P-256/SHA-256,2
+ipn.mx,Firmado sin DS (incompleto),Educación,False,no_dnssec,RSA/SHA-512,1
+tecmilenio.mx,No DNSSEC,Educación,False,no_dnssec,N/A,0
+itesm.mx,No DNSSEC,Educación,False,no_dnssec,N/A,0
+uam.mx,No DNSSEC,Educación,False,no_dnssec,N/A,0
+uanl.mx,No DNSSEC,Educación,False,no_dnssec,N/A,0
+udg.mx,Firmado sin DS (incompleto),Educación,False,no_dnssec,RSASHA1-NSEC3-SHA1,1
+infonavit.org.mx,Cadena rota,Organismo público financiero / ciencia,True,broken,RSA/SHA-256,0
+profeco.gob.mx,No DNSSEC,Gobierno,False,no_dnssec,N/A,0
+ine.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
+banxico.org.mx,No DNSSEC,Organismo público financiero / ciencia,False,no_dnssec,N/A,0
+conacyt.mx,No DNSSEC,Organismo público financiero / ciencia,False,no_dnssec,N/A,0
+conagua.gob.mx,No DNSSEC,Gobierno,False,no_dnssec,N/A,0
+semarnat.gob.mx,DNSSEC válido,Gobierno,True,valid,RSASHA1-NSEC3-SHA1,2
+pemex.com.mx,DNSSEC válido,Energía / Empresa productiva,True,valid,ECDSA P-256/SHA-256,2
+cfe.mx,No DNSSEC,Telecom / ISP,False,no_dnssec,N/A,0
+bbva.mx,No DNSSEC,Bancos,False,no_dnssec,N/A,0
+santander.com.mx,No DNSSEC,Bancos,False,no_dnssec,N/A,0
+banorte.com.mx,No DNSSEC,Bancos,False,no_dnssec,N/A,0
+hsbc.com.mx,No DNSSEC,Bancos,False,no_dnssec,N/A,0
+liverpool.com.mx,No DNSSEC,Retail / Comercio,False,no_dnssec,N/A,0
+walmart.com.mx,No DNSSEC,Retail / Comercio,False,no_dnssec,N/A,0
+soriana.com.mx,No DNSSEC,Retail / Comercio,False,no_dnssec,N/A,0
+cinepolis.com.mx,No DNSSEC,Retail / Comercio,False,no_dnssec,N/A,0
+cinemex.com.mx,No DNSSEC,Retail / Comercio,False,no_dnssec,N/A,0
+telcel.com.mx,No DNSSEC,Telecom / ISP,False,no_dnssec,N/A,0
+telmex.com.mx,No DNSSEC,Telecom / ISP,False,no_dnssec,N/A,0
+megacable.com.mx,No DNSSEC,Telecom / ISP,False,no_dnssec,N/A,0
+totalplay.com.mx,No DNSSEC,Telecom / ISP,False,no_dnssec,N/A,0
+claro.com.mx,No DNSSEC,Telecom / ISP,False,no_dnssec,N/A,0
+mercado libre.com.mx (mercadolibre.com.mx),No DNSSEC,Retail / Comercio,False,broken,N/A,0
+amazon.com.mx,No DNSSEC,Retail / Comercio,False,no_dnssec,N/A,0
+uber.com.mx,No DNSSEC,Tecnología / Servicios digitales,False,no_dnssec,N/A,0
+diariodequeretaro.com.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
+reforma.com.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
+eluniversal.com.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
+milenio.com.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
+proceso.com.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
+eleconomista.com.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
+elempresario.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
+occ.com.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
+computrabajo.com.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
+infobae.com.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
+trivago.com.mx,No DNSSEC,Otros,False,no_dnssec,N/A,0
